@@ -12,6 +12,7 @@
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.2",
+    "@netlify/plugin-nextjs": "^4.29.4",
     "cross-env": "^7.0.3",
     "next": "^10.2.3",
     "react": "17.0.2",
