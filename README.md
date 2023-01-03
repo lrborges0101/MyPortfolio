@@ -1,3 +1,3 @@
 ## Personal Portfolio
 
-![Portfolio Website](../portfolio_website-STARTER/public/Assets/Images/resume.png)
+![Portfolio Website](blob:https://imgur.com/455da70b-bd4c-48c4-821d-af6b22b58fcb)
