@@ -2,6 +2,8 @@
 .projectContainer{
     width: 60vw;
     overflow-x: hidden;
+    color: red;
+    
 }
 .cardGroups,
 .cardGroup,
@@ -59,26 +61,26 @@
 .cardGroup[data-index="0"]>.bigCard:nth-child(2){
    
     transform: translateX(-10%) rotate(-1deg);
-    background-image: url('../../../public/Assets/Images/hard\ 2.png') ;
+    background-image: url('../../public/Assets/Images/hard\ 2.png') ;
     background-size: contain;
 
 }
 .cardGroup[data-index="0"]>.bigCard:nth-child(4){
     transform:  rotate(2deg);
-    background-image: url('../../../public/Assets/Images/hard\ 4.png') ;
+    background-image: url('../../public/Assets/Images/hard\ 4.png') ;
     background-size: contain;
 }
 .cardGroup[data-index="0"]>.bigCard:nth-child(6){
    
     transform: translateX(-6%) rotate(-3deg);
-    background-image: url('../../../public/Assets/Images/hard\ 3.png') ;
+    background-image: url('../../public/Assets/Images/hard\ 3.png') ;
     background-size: contain;
 }
 
 .cardGroup[data-index="0"] >.bigCard:nth-child(8){
    
     transform: translate(10%, 3%) rotate(5deg);
-    background-image: url('../../../public/Assets/Images/hard\ 1.png') ;
+    background-image: url('../../public/Assets/Images/hard\ 1.png') ;
     background-size: contain;
 }
 
@@ -87,48 +89,48 @@
 
   .cardGroup[data-index="1"] > .bigCard:nth-child(2) {
     transform: translateX(-10%) rotate(-1deg);
-    background-image: url("../../../public/Assets/Images/todo\ 4.png");
+    background-image: url("../../public/Assets/Images/todo\ 4.png");
     background-size: cover;
   }
 
   .cardGroup[data-index="1"] > .bigCard:nth-child(4) {
     transform:  rotate(2deg);
-    background-image: url("../../../public/Assets/Images/todo\ 3.png");
+    background-image: url("../../public/Assets/Images/todo\ 3.png");
     background-size: cover;
   }
 
   .cardGroup[data-index="1"] > .bigCard:nth-child(6) {
     transform: translateX(-6%) rotate(-3deg);
-    background-image: url("../../../public/Assets/Images/todo\ 2.png");
+    background-image: url("../../public/Assets/Images/todo\ 2.png");
     background-size: cover;
   }
 
   .cardGroup[data-index="1"] > .bigCard:nth-child(8) {
-    background-image: url("../../../public/Assets/Images/todo\ 1.png");
+    background-image: url("../../public/Assets/Images/todo\ 1.png");
     background-size: cover;
   }
 
   .cardGroup[data-index="2"] > .bigCard:nth-child(2) {
     transform: translateX(-10%) rotate(-1deg);
-    background-image: url("../../../public/Assets/Images/bqq\ 4.png");
+    background-image: url("../../public/Assets/Images/bqq\ 4.png");
     background-size: cover;
   }
 
   .cardGroup[data-index="2"] > .bigCard:nth-child(4) {
     transform:  rotate(2deg);
-    background-image: url("../../../public/Assets/Images/bqq\ 3.png");
+    background-image: url("../../public/Assets/Images/bqq\ 3.png");
     background-size: cover;
   }
 
   .cardGroup[data-index="2"] > .bigCard:nth-child(6) {
     transform: translateX(-6%) rotate(-3deg);
-    background-image: url("../../../public/Assets/Images/bqq\ 2.png");
+    background-image: url("../../public/Assets/Images/bqq\ 2.png");
     background-size: cover;
   }
 
   .cardGroup[data-index="2"] > .bigCard:nth-child(8) {
     transform: translate(10%, 3%) rotate(5deg);
-    background-image: url("../../../public/Assets/Images/bqq\ 1.png");
+    background-image: url("../../public/Assets/Images/bqq\ 1.png");
     background-size: cover;
   }
 .cardGroup:hover > .bigCard:nth-child(2){
@@ -269,12 +271,13 @@
    
     
   .text{
+    color: white;
     height: 100vh;
     width: 90%;
     object-fit: cover;
     font-size: 2rem;
  
-    color: white;
+   
     
 }
    

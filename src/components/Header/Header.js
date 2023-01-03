@@ -9,10 +9,10 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 const Header = () =>  (
         <Container>
           <Div1>
-            <Link href='/'>
-              <a style={{display:'flex', alignItems:'center', color:'white', marginBottom:'20px'}} >
+            <Link href='/' style={{display:'flex', alignItems:'center', color:'white', marginBottom:'20px'}} >
+             
                   <DiAtom size='3rem'/><span style={{fontSize:'3rem'}}> Portfolio</span>
-              </a>
+              
             </Link>
           </Div1>
           <Div2>

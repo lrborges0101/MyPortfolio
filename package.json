@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "export": "next export",
     "start": "next start",
     "dev": "next dev",
-    "build": "next build && next export"
+    "build": "next build ",
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -15,11 +15,13 @@
     "@mui/material": "^5.11.2",
     "@netlify/plugin-nextjs": "^4.29.4",
     "cross-env": "^7.0.3",
-    "next": "^10.2.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "eslint-config-next": "^13.1.1",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.2.0",
     "sass": "^1.57.1",
+    "scss": "^0.2.4",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7"
   }

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Typography } from '@mui/material';
-import styles from './Component.module.scss'
+import styles from '../../styles/Component.module.scss'
 import {Section, SectionTitle, SectionDivider} from '../../styles/GlobalComponents'
 
 
@@ -55,7 +55,7 @@ console.log({currentText})
     <div id='projects'>
       
       
-    <div className={styles.projectContainer} style={{color:'white',  justifyContent:'space-around', position:'relative', width:'100vw', }}>
+    <div className={styles.projectContainer} style={{ justifyContent:'space-around', position:'relative', width:'100vw', }}>
       <SectionTitle main>Projects</SectionTitle>
     
       <div className={styles.projectShow} >
