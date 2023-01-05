@@ -3,7 +3,9 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Typography } from '@mui/material';
 import styles from '../../styles/Component.module.scss'
-import {Section, SectionTitle, SectionDivider} from '../../styles/GlobalComponents'
+import {Section, SectionTitle, SectionDivider} from '../../styles/GlobalComponents';
+import { FiGithub} from "react-icons/fi";
+import { CgWebsite } from "react-icons/cg";
 
 
 
@@ -70,6 +72,15 @@ console.log({currentText})
 
                     &nbsp;{data[3]}<br/><br/>
                     </Typography>
+                    <div className={styles.buttonGit} >
+                                  <button className={styles.git} >
+                                    <a target='_blank' href='https://github.com/lrborges0101/HardDisk'><FiGithub className={styles.iconGit}  /><span className={styles.gitText} >GitHub Code</span></a>
+                                  </button>
+                                  <button className={styles.git} >
+                                    <a target='_blank' href='https://lrborges0101.github.io/HardDisk'><CgWebsite className={styles.iconGit} /><span className={`${styles.gitText} ${styles.text2}`} >Web Page</span></a>
+                                  </button>
+
+                            </div>
           </div>
          
          
@@ -90,7 +101,21 @@ console.log({currentText})
                             </ul>
                            
                     </Typography>
+                    <div className={styles.buttonGit} >
+                                  <button className={styles.git} >
+                                    <a target='_blank' href='https://github.com/lrborges0101/todo-list'><FiGithub className={styles.iconGit}  /><span className={styles.gitText} >GitHub Code</span></a>
+                                  </button>
+                                  <button className={styles.git} >
+                                    <a target='_blank' href='https://lrborges0101.github.io/todo-list/'><CgWebsite className={styles.iconGit} /><span className={`${styles.gitText} ${styles.text2}`} >Web Page</span></a>
+                                  </button>
+
+                            </div>
+
+                          
+
           </div>
+                              
+
             <div className={ `${styles.text} ${styles.text1}` }  >
             <Typography  variant='h4'  > &nbsp;{data1[0]}</Typography>
                     <br/><br/>
@@ -101,6 +126,15 @@ console.log({currentText})
                             
                            
                     </Typography>
+                    <div className={styles.buttonGit} >
+                                  <button className={styles.git} >
+                                    <a target='_blank' href='https://github.com/lrborges0101/BBQ'><FiGithub className={styles.iconGit}  /><span className={styles.gitText} >GitHub Code</span></a>
+                                  </button>
+                                  <button className={styles.git} >
+                                    <a target='_blank' href='https://bbq-lrborges0101.vercel.app/'><CgWebsite className={styles.iconGit} /><span className={`${styles.gitText} ${styles.text2}`} >Web Page</span></a>
+                                  </button>
+
+                            </div>
           </div>
 
         </div>
